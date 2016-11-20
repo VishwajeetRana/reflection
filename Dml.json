@@ -1,0 +1,869 @@
+{
+  "Dmls": [
+    {
+      "Source Database Schema Table": {
+        "Table": {
+          "tableName": "Best_dim",
+          "tableAliasName": "best dimension",
+          "createUserId": "7",
+          "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+          "lastChangeUserId": "5",
+          "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+        },
+        "Schema": {
+          "schemaName": "WM_Tables",
+          "createUserId": "5",
+          "createTimestamp": "Feb 13, 0002 12:00:00 AM",
+          "lastChangeUserId": "2",
+          "lastChangeTimestamp": "May 6, 2011 12:00:00 AM"
+        },
+        "databaseId": 1
+      },
+      "Target Database Schema Table": {
+        "Table": {
+          "tableName": "Item_dim",
+          "tableAliasName": "item dimension",
+          "createUserId": "7",
+          "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+          "lastChangeUserId": "2",
+          "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+        },
+        "Schema": {
+          "schemaName": "WM_Tables",
+          "createUserId": "5",
+          "createTimestamp": "Feb 13, 0002 12:00:00 AM",
+          "lastChangeUserId": "2",
+          "lastChangeTimestamp": "May 6, 2011 12:00:00 AM"
+        },
+        "databaseId": 1
+      },
+      "createUserId": "3",
+      "createTimestamp": "Apr 5, 0003 12:00:00 AM",
+      "lastChangeUserId": "4",
+      "lastChangeTimestamp": "Jun 7, 0005 12:00:00 AM",
+      "version": "1.1",
+      "dmlMapRule": [
+        {
+          "dmlMapRule": "select",
+          "Source Table Column": {
+            "Table": {
+              "tableName": "Item_dim",
+              "tableAliasName": "item dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Column": {
+              "columnName": "dimension",
+              "columnDataType": "string",
+              "columnLength": 6,
+              "createUserId": "3",
+              "createTimestamp": "May 7, 0004 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+              "isFormula": false,
+              "isStatic": true
+            }
+          },
+          "Target Table Column": {
+            "Table": {
+              "tableName": "Best_dim",
+              "tableAliasName": "best dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Column": {
+              "columnName": "Id",
+              "columnDataType": "varchar",
+              "columnLength": 6,
+              "createUserId": "3",
+              "createTimestamp": "May 7, 0004 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+              "isFormula": false,
+              "isStatic": true
+            }
+          },
+          "dmlMapSeqNbr": 5,
+          "createUserId": "4",
+          "createTimestamp": "Jan 1, 0001 12:00:00 AM",
+          "lastChangeUserId": "4",
+          "lastChangeTimestamp": "Mar 4, 0002 12:00:00 AM"
+        },
+        {
+          "dmlMapRule": "select",
+          "Source Table Column": {
+            "Table": {
+              "tableName": "Item_dim",
+              "tableAliasName": "item dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Column": {
+              "columnName": "dimension",
+              "columnDataType": "string",
+              "columnLength": 6,
+              "createUserId": "3",
+              "createTimestamp": "May 7, 0004 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+              "isFormula": false,
+              "isStatic": true
+            }
+          },
+          "Target Table Column": {
+            "Table": {
+              "tableName": "Item_dim",
+              "tableAliasName": "item dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Column": {
+              "columnName": "num",
+              "columnDataType": "string",
+              "columnLength": 6,
+              "createUserId": "3",
+              "createTimestamp": "May 7, 0004 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+              "isFormula": false,
+              "isStatic": false
+            }
+          },
+          "dmlMapSeqNbr": 5,
+          "createUserId": "4",
+          "createTimestamp": "Jan 1, 0001 12:00:00 AM",
+          "lastChangeUserId": "4",
+          "lastChangeTimestamp": "Mar 4, 0002 12:00:00 AM"
+        },
+        {
+          "dmlMapRule": "select",
+          "Source Table Column": {
+            "Table": {
+              "tableName": "Item_dim",
+              "tableAliasName": "item dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Column": {
+              "columnName": "dimension",
+              "columnDataType": "string",
+              "columnLength": 6,
+              "createUserId": "3",
+              "createTimestamp": "May 7, 0004 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+              "isFormula": false,
+              "isStatic": true
+            }
+          },
+          "Target Table Column": {
+            "Table": {
+              "tableName": "Best_dim",
+              "tableAliasName": "best dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Column": {
+              "columnName": "bool",
+              "columnDataType": "string",
+              "columnLength": 6,
+              "createUserId": "3",
+              "createTimestamp": "May 7, 0004 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+              "isFormula": false,
+              "isStatic": true
+            }
+          },
+          "dmlMapSeqNbr": 5,
+          "createUserId": "4",
+          "createTimestamp": "Jan 1, 0001 12:00:00 AM",
+          "lastChangeUserId": "4",
+          "lastChangeTimestamp": "Mar 4, 0002 12:00:00 AM"
+        },
+        {
+          "dmlMapRule": "select",
+          "Source Table Column": {
+            "Table": {
+              "tableName": "Best_dim",
+              "tableAliasName": "best dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Column": {
+              "columnName": "Id",
+              "columnDataType": "varchar",
+              "columnLength": 6,
+              "createUserId": "3",
+              "createTimestamp": "May 7, 0004 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+              "isFormula": false,
+              "isStatic": true
+            }
+          },
+          "Target Table Column": {
+            "Table": {
+              "tableName": "Item_dim",
+              "tableAliasName": "item dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Column": {
+              "columnName": "Id",
+              "columnDataType": "varchar",
+              "columnLength": 6,
+              "createUserId": "3",
+              "createTimestamp": "May 7, 0004 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+              "isFormula": false,
+              "isStatic": true
+            }
+          },
+          "dmlMapSeqNbr": 5,
+          "createUserId": "4",
+          "createTimestamp": "Jan 1, 0001 12:00:00 AM",
+          "lastChangeUserId": "4",
+          "lastChangeTimestamp": "Mar 4, 0002 12:00:00 AM"
+        },
+        {
+          "dmlMapRule": "select",
+          "Source Table Column": {
+            "Table": {
+              "tableName": "Best_dim",
+              "tableAliasName": "best dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Column": {
+              "columnName": "bool",
+              "columnDataType": "string",
+              "columnLength": 6,
+              "createUserId": "3",
+              "createTimestamp": "May 7, 0004 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+              "isFormula": false,
+              "isStatic": true
+            }
+          },
+          "Target Table Column": {
+            "Table": {
+              "tableName": "Item_dim",
+              "tableAliasName": "item dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Column": {
+              "columnName": "Id",
+              "columnDataType": "varchar",
+              "columnLength": 6,
+              "createUserId": "3",
+              "createTimestamp": "May 7, 0004 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+              "isFormula": false,
+              "isStatic": true
+            }
+          },
+          "dmlMapSeqNbr": 5,
+          "createUserId": "4",
+          "createTimestamp": "Jan 1, 0001 12:00:00 AM",
+          "lastChangeUserId": "4",
+          "lastChangeTimestamp": "Mar 4, 0002 12:00:00 AM"
+        }
+      ],
+      "dmlJoin": [
+        {
+          "dmlJoinType": {
+            "joinTypeName": "Left OUTER",
+            "databaseId": 1,
+            "createUserId": "3",
+            "createTimestamp": "Feb 2, 0002 12:00:00 AM",
+            "lastChangeUserId": "5",
+            "lastChangeTimestamp": "May 5, 0005 12:00:00 AM"
+          },
+          "Left Database Schema Table": {
+            "Table": {
+              "tableName": "Sell",
+              "tableAliasName": "seller dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "7",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Schema": {
+              "schemaName": "SKP_Tables",
+              "createUserId": "5",
+              "createTimestamp": "Feb 13, 0002 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 6, 2011 12:00:00 AM"
+            },
+            "databaseId": 1
+          },
+          "Right Database Schema Table": {
+            "Table": {
+              "tableName": "Item_dim",
+              "tableAliasName": "item dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Schema": {
+              "schemaName": "WM_Tables",
+              "createUserId": "5",
+              "createTimestamp": "Feb 13, 0002 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 6, 2011 12:00:00 AM"
+            },
+            "databaseId": 1
+          },
+          "createUserId": "2",
+          "createTimestamp": "Mar 4, 0002 12:00:00 AM",
+          "lastChangeUserId": "1",
+          "lastChangeTimestamp": "Apr 5, 0003 12:00:00 AM",
+          "Join Column Details": [
+            {
+              "dmlJoinSeqNbr": 3,
+              "Left Join Table Column": {
+                "Table": {
+                  "tableName": "Item_dim",
+                  "tableAliasName": "item dimension",
+                  "createUserId": "7",
+                  "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+                  "lastChangeUserId": "2",
+                  "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+                },
+                "Column": {
+                  "columnName": "Id",
+                  "columnDataType": "varchar",
+                  "columnLength": 6,
+                  "createUserId": "3",
+                  "createTimestamp": "May 7, 0004 12:00:00 AM",
+                  "lastChangeUserId": "5",
+                  "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+                  "isFormula": false,
+                  "isStatic": true
+                }
+              },
+              "dmlJoinColOperator": "=",
+              "Right Join Table Column": {
+                "Table": {
+                  "tableName": "Best_dim",
+                  "tableAliasName": "best dimension",
+                  "createUserId": "7",
+                  "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+                  "lastChangeUserId": "5",
+                  "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+                },
+                "Column": {
+                  "columnName": "Id",
+                  "columnDataType": "varchar",
+                  "columnLength": 6,
+                  "createUserId": "3",
+                  "createTimestamp": "May 7, 0004 12:00:00 AM",
+                  "lastChangeUserId": "5",
+                  "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+                  "isFormula": false,
+                  "isStatic": true
+                }
+              },
+              "createUserId": "2",
+              "createTimestamp": "Feb 3, 0001 12:00:00 AM",
+              "lastChangeUserId": "4",
+              "lastChangeTimestamp": "Apr 4, 0004 12:00:00 AM"
+            }
+          ]
+        },
+        {
+          "dmlJoinType": {
+            "joinTypeName": "Left OUTER",
+            "databaseId": 1,
+            "createUserId": "3",
+            "createTimestamp": "Feb 2, 0002 12:00:00 AM",
+            "lastChangeUserId": "5",
+            "lastChangeTimestamp": "May 5, 0005 12:00:00 AM"
+          },
+          "Left Database Schema Table": {
+            "Table": {
+              "tableName": "Sell",
+              "tableAliasName": "seller dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "7",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Schema": {
+              "schemaName": "SKP_Tables",
+              "createUserId": "5",
+              "createTimestamp": "Feb 13, 0002 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 6, 2011 12:00:00 AM"
+            },
+            "databaseId": 1
+          },
+          "Right Database Schema Table": {
+            "Table": {
+              "tableName": "Best_dim",
+              "tableAliasName": "best dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Schema": {
+              "schemaName": "WM_Tables",
+              "createUserId": "5",
+              "createTimestamp": "Feb 13, 0002 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 6, 2011 12:00:00 AM"
+            },
+            "databaseId": 1
+          },
+          "createUserId": "2",
+          "createTimestamp": "Mar 4, 0002 12:00:00 AM",
+          "lastChangeUserId": "1",
+          "lastChangeTimestamp": "Apr 5, 0003 12:00:00 AM",
+          "Join Column Details": [
+            {
+              "dmlJoinSeqNbr": 3,
+              "Left Join Table Column": {
+                "Table": {
+                  "tableName": "Item_dim",
+                  "tableAliasName": "item dimension",
+                  "createUserId": "7",
+                  "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+                  "lastChangeUserId": "2",
+                  "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+                },
+                "Column": {
+                  "columnName": "Id",
+                  "columnDataType": "varchar",
+                  "columnLength": 6,
+                  "createUserId": "3",
+                  "createTimestamp": "May 7, 0004 12:00:00 AM",
+                  "lastChangeUserId": "5",
+                  "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+                  "isFormula": false,
+                  "isStatic": true
+                }
+              },
+              "dmlJoinColOperator": "=",
+              "Right Join Table Column": {
+                "Table": {
+                  "tableName": "Best_dim",
+                  "tableAliasName": "best dimension",
+                  "createUserId": "7",
+                  "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+                  "lastChangeUserId": "5",
+                  "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+                },
+                "Column": {
+                  "columnName": "Id",
+                  "columnDataType": "varchar",
+                  "columnLength": 6,
+                  "createUserId": "3",
+                  "createTimestamp": "May 7, 0004 12:00:00 AM",
+                  "lastChangeUserId": "5",
+                  "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+                  "isFormula": false,
+                  "isStatic": true
+                }
+              },
+              "createUserId": "2",
+              "createTimestamp": "Feb 3, 0001 12:00:00 AM",
+              "lastChangeUserId": "4",
+              "lastChangeTimestamp": "Apr 4, 0004 12:00:00 AM"
+            }
+          ]
+        }
+      ],
+      "dmlFilter": [
+        {
+          "filterCondition": ">",
+          "Left side Table Column": {
+            "Table": {
+              "tableName": "Item_dim",
+              "tableAliasName": "item dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Column": {
+              "columnName": "Id",
+              "columnDataType": "varchar",
+              "columnLength": 6,
+              "createUserId": "3",
+              "createTimestamp": "May 7, 0004 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+              "isFormula": false,
+              "isStatic": true
+            }
+          },
+          "Right side Table Column": {
+            "Table": {
+              "tableName": "Best_dim",
+              "tableAliasName": "best dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Column": {
+              "columnName": "Id",
+              "columnDataType": "varchar",
+              "columnLength": 6,
+              "createUserId": "3",
+              "createTimestamp": "May 7, 0004 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+              "isFormula": false,
+              "isStatic": true
+            }
+          },
+          "filterSeqNum": 4,
+          "filterType": "where",
+          "createUserId": "3",
+          "createTimestamp": "Apr 3, 0003 12:00:00 AM",
+          "lastChangeUserId": "4",
+          "lastChangeTimestamp": "Mar 4, 0002 12:00:00 AM"
+        },
+        {
+          "filterCondition": ">",
+          "Left side Table Column": {
+            "Table": {
+              "tableName": "Item_dim",
+              "tableAliasName": "item dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Column": {
+              "columnName": "dimension",
+              "columnDataType": "string",
+              "columnLength": 6,
+              "createUserId": "3",
+              "createTimestamp": "May 7, 0004 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+              "isFormula": false,
+              "isStatic": true
+            }
+          },
+          "Right side Table Column": {
+            "Table": {
+              "tableName": "Best_dim",
+              "tableAliasName": "best dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Column": {
+              "columnName": "Id",
+              "columnDataType": "varchar",
+              "columnLength": 6,
+              "createUserId": "3",
+              "createTimestamp": "May 7, 0004 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+              "isFormula": false,
+              "isStatic": true
+            }
+          },
+          "filterSeqNum": 4,
+          "filterType": "where",
+          "createUserId": "3",
+          "createTimestamp": "Apr 3, 0003 12:00:00 AM",
+          "lastChangeUserId": "4",
+          "lastChangeTimestamp": "Mar 4, 0002 12:00:00 AM"
+        }
+      ],
+      "dmlAggregate": [
+        {
+          "tblColMappingId": {
+            "Table": {
+              "tableName": "Best_dim",
+              "tableAliasName": "best dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Column": {
+              "columnName": "bool",
+              "columnDataType": "string",
+              "columnLength": 6,
+              "createUserId": "3",
+              "createTimestamp": "May 7, 0004 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+              "isFormula": false,
+              "isStatic": true
+            }
+          },
+          "dmlAggregateSeqNo": 2,
+          "createUserId": "3",
+          "createTimestamp": "Mar 4, 0002 12:00:00 AM",
+          "lastChangeUserId": "1",
+          "lastChangeTimestamp": "Mar 4, 0002 12:00:00 AM"
+        }
+      ]
+    },
+    {
+      "Source Database Schema Table": {
+        "Table": {
+          "tableName": "Best_dim",
+          "tableAliasName": "best dimension",
+          "createUserId": "7",
+          "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+          "lastChangeUserId": "5",
+          "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+        },
+        "Schema": {
+          "schemaName": "WM_Tables",
+          "createUserId": "5",
+          "createTimestamp": "Feb 13, 0002 12:00:00 AM",
+          "lastChangeUserId": "2",
+          "lastChangeTimestamp": "May 6, 2011 12:00:00 AM"
+        },
+        "databaseId": 1
+      },
+      "Target Database Schema Table": {
+        "Table": {
+          "tableName": "Sell",
+          "tableAliasName": "seller dimension",
+          "createUserId": "7",
+          "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+          "lastChangeUserId": "7",
+          "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+        },
+        "Schema": {
+          "schemaName": "SKP_Tables",
+          "createUserId": "5",
+          "createTimestamp": "Feb 13, 0002 12:00:00 AM",
+          "lastChangeUserId": "2",
+          "lastChangeTimestamp": "May 6, 2011 12:00:00 AM"
+        },
+        "databaseId": 1
+      },
+      "createUserId": "3",
+      "createTimestamp": "Apr 5, 0003 12:00:00 AM",
+      "lastChangeUserId": "4",
+      "lastChangeTimestamp": "Jun 7, 0005 12:00:00 AM",
+      "version": "1.1",
+      "dmlMapRule": [],
+      "dmlJoin": [
+        {
+          "dmlJoinType": {
+            "joinTypeName": "FULL",
+            "databaseId": 1,
+            "createUserId": "3",
+            "createTimestamp": "Feb 2, 0002 12:00:00 AM",
+            "lastChangeUserId": "5",
+            "lastChangeTimestamp": "May 5, 0005 12:00:00 AM"
+          },
+          "Left Database Schema Table": {
+            "Table": {
+              "tableName": "Best_dim",
+              "tableAliasName": "best dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Schema": {
+              "schemaName": "WM_Tables",
+              "createUserId": "5",
+              "createTimestamp": "Feb 13, 0002 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 6, 2011 12:00:00 AM"
+            },
+            "databaseId": 1
+          },
+          "Right Database Schema Table": {
+            "Table": {
+              "tableName": "Item_dim",
+              "tableAliasName": "item dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Schema": {
+              "schemaName": "WM_Tables",
+              "createUserId": "5",
+              "createTimestamp": "Feb 13, 0002 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 6, 2011 12:00:00 AM"
+            },
+            "databaseId": 1
+          },
+          "createUserId": "2",
+          "createTimestamp": "Mar 4, 0002 12:00:00 AM",
+          "lastChangeUserId": "1",
+          "lastChangeTimestamp": "Apr 5, 0003 12:00:00 AM",
+          "Join Column Details": []
+        },
+        {
+          "dmlJoinType": {
+            "joinTypeName": "INNER",
+            "databaseId": 1,
+            "createUserId": "3",
+            "createTimestamp": "Feb 2, 0002 12:00:00 AM",
+            "lastChangeUserId": "5",
+            "lastChangeTimestamp": "May 5, 0005 12:00:00 AM"
+          },
+          "Left Database Schema Table": {
+            "Table": {
+              "tableName": "Best_dim",
+              "tableAliasName": "best dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Schema": {
+              "schemaName": "WM_Tables",
+              "createUserId": "5",
+              "createTimestamp": "Feb 13, 0002 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 6, 2011 12:00:00 AM"
+            },
+            "databaseId": 1
+          },
+          "Right Database Schema Table": {
+            "Table": {
+              "tableName": "Sell",
+              "tableAliasName": "seller dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "7",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Schema": {
+              "schemaName": "SKP_Tables",
+              "createUserId": "5",
+              "createTimestamp": "Feb 13, 0002 12:00:00 AM",
+              "lastChangeUserId": "2",
+              "lastChangeTimestamp": "May 6, 2011 12:00:00 AM"
+            },
+            "databaseId": 1
+          },
+          "createUserId": "2",
+          "createTimestamp": "Mar 4, 0002 12:00:00 AM",
+          "lastChangeUserId": "1",
+          "lastChangeTimestamp": "Apr 5, 0003 12:00:00 AM",
+          "Join Column Details": [
+            {
+              "dmlJoinSeqNbr": 3,
+              "Left Join Table Column": {
+                "Table": {
+                  "tableName": "Item_dim",
+                  "tableAliasName": "item dimension",
+                  "createUserId": "7",
+                  "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+                  "lastChangeUserId": "2",
+                  "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+                },
+                "Column": {
+                  "columnName": "Id",
+                  "columnDataType": "varchar",
+                  "columnLength": 6,
+                  "createUserId": "3",
+                  "createTimestamp": "May 7, 0004 12:00:00 AM",
+                  "lastChangeUserId": "5",
+                  "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+                  "isFormula": false,
+                  "isStatic": true
+                }
+              },
+              "dmlJoinColOperator": "=",
+              "Right Join Table Column": {
+                "Table": {
+                  "tableName": "Best_dim",
+                  "tableAliasName": "best dimension",
+                  "createUserId": "7",
+                  "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+                  "lastChangeUserId": "5",
+                  "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+                },
+                "Column": {
+                  "columnName": "Id",
+                  "columnDataType": "varchar",
+                  "columnLength": 6,
+                  "createUserId": "3",
+                  "createTimestamp": "May 7, 0004 12:00:00 AM",
+                  "lastChangeUserId": "5",
+                  "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+                  "isFormula": false,
+                  "isStatic": true
+                }
+              },
+              "createUserId": "2",
+              "createTimestamp": "Feb 3, 0001 12:00:00 AM",
+              "lastChangeUserId": "4",
+              "lastChangeTimestamp": "Apr 4, 0004 12:00:00 AM"
+            }
+          ]
+        }
+      ],
+      "dmlFilter": [],
+      "dmlAggregate": [
+        {
+          "tblColMappingId": {
+            "Table": {
+              "tableName": "Best_dim",
+              "tableAliasName": "best dimension",
+              "createUserId": "7",
+              "createTimestamp": "Jun 12, 2021 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 12, 2034 12:00:00 AM"
+            },
+            "Column": {
+              "columnName": "bool",
+              "columnDataType": "string",
+              "columnLength": 6,
+              "createUserId": "3",
+              "createTimestamp": "May 7, 0004 12:00:00 AM",
+              "lastChangeUserId": "5",
+              "lastChangeTimestamp": "May 6, 0004 12:00:00 AM",
+              "isFormula": false,
+              "isStatic": true
+            }
+          },
+          "dmlAggregateSeqNo": 2,
+          "createUserId": "3",
+          "createTimestamp": "Mar 4, 0002 12:00:00 AM",
+          "lastChangeUserId": "1",
+          "lastChangeTimestamp": "Mar 4, 0002 12:00:00 AM"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "Databases": [
+    {
+      "Database Properties": [
+        {
+          "Database Property": {
+            "paramName": "param2",
+            "paramvalue": "5",
+            "paramType": "bool",
+            "paramLength": 50
+          },
+          "envType": "bool",
+          "createUserId": "2",
+          "createTS": "Mar 2, 0002 12:00:00 AM",
+          "lastChangeUserId": "2",
+          "lastChangeTS": "2-2-2"
+        }
+      ],
+      "dsnName": "store",
+      "createUserId": "3",
+      "createTS": "Mar 4, 0004 12:00:00 AM",
+      "lastChangeUserId": "3",
+      "lastChangeTS": "2-3-4"
+    },
+    {
+      "Database Properties": [
+        {
+          "Database Property": {
+            "paramName": "param1",
+            "paramvalue": "5",
+            "paramType": "bool",
+            "paramLength": 4
+          },
+          "envType": "bool",
+          "createUserId": "2",
+          "createTS": "Mar 2, 0002 12:00:00 AM",
+          "lastChangeUserId": "2",
+          "lastChangeTS": "2-2-2"
+        }
+      ],
+      "dsnName": "sellers",
+      "createUserId": "3",
+      "createTS": "Mar 4, 0004 12:00:00 AM",
+      "lastChangeUserId": "3",
+      "lastChangeTS": "2-3-4"
+    }
+  ]
+}

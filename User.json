@@ -1,0 +1,22 @@
+{
+  "Users": [
+    {
+      "userName": "Root",
+      "password": "Pass",
+      "encryptionType": "type1",
+      "createUserId": "3",
+      "createTS": "Mar 4, 0002 12:00:00 AM",
+      "lastChangeUserId": "1",
+      "lastChnageTS": "Feb 3, 0001 12:00:00 AM"
+    },
+    {
+      "userName": "Root",
+      "password": "Pass",
+      "encryptionType": "type12",
+      "createUserId": "3",
+      "createTS": "Mar 4, 0002 12:00:00 AM",
+      "lastChangeUserId": "1",
+      "lastChnageTS": "Feb 3, 0001 12:00:00 AM"
+    }
+  ]
+}
